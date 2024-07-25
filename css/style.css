@@ -1,0 +1,12 @@
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content:space-around
+}
+
