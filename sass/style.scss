@@ -62,15 +62,16 @@
         }
     }
 
+    .tribute {
+        display: flex;
+        justify-content: center;
+        img{
+        width: 100%;
+        max-width: 18.75rem;
+        border-radius: 15px;
+    }
+    }
 
-.tribute{
-    margin-left: 18.75rem;
-    width: 75%vw;
-    max-width: 62.5rem;
-    min-width: 20rem;
-    margin: auto;
-    border-radius: 15px;
-}
 
 .buyNow{
     img{
