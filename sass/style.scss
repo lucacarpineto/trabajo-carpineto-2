@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-.fondoGeneral{
-        background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
-        .imagenes{
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-}
-
 /* animaciones */
 @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 .tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
@@ -28,6 +19,16 @@
 
 @-webkit-keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}@keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}
 .swirl-in-fwd{-webkit-animation:swirl-in-fwd .6s ease-out both;animation:swirl-in-fwd .6s ease-out both}
+/*animaciones*/
+
+.fondoGeneral{
+        background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
+        .imagenes{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+}
 
 .fondoNav{
     background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
