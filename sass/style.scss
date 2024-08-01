@@ -22,7 +22,7 @@
 /*animaciones*/
 
 .fondoGeneral{
-        background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
+        background: linear-gradient(138deg, #4d33f7,#791191,#592049);
         .imagenes{
             display:flex;
             flex-direction: row;
@@ -31,14 +31,14 @@
 }
 
 .fondoNav{
-    background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
+    background: linear-gradient(138deg, #4d33f7,#791191,#592049);
     div{
         font-weight: bold;
     }
 }
 
 .fondoFooter{
-    background: linear-gradient(to right, #ff1a1a, #dc1516, #b91112, #980d0e, #780909);
+    background: linear-gradient(138deg, #4d33f7,#791191,#592049);
     height: 100vh;
         div{
             font-weight:bold;
@@ -54,11 +54,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+    gap: 0px;
     margin-left: 5rem;
         img{
             width: 70%;
+            border-radius: 10px;
         }
     }
 
@@ -75,6 +75,7 @@
 
 .buyNow{
     img{
-        width: 50%;
+        width: 30%;
     }
 }
+
