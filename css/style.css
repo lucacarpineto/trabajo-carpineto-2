@@ -1,8 +1,26 @@
+@import url(../partials/_fondoGeneral.scss);
+@import url(../partials/_subtitulo.scss);
+@import url(../partials/_fondoNav.scss);
+@import url(../partials/_fondoFooter.scss);
+@import url(../partials/_carousel-inner.scss);
+@import url(../partials/_mediaDemo.scss);
+@import url(../partials/_mediaDemo2.scss);
+@import url(../partials/_mediaDemo3.scss);
+@import url(/partials/_tribute.scss);
+@import url(../partials/_historiaAkira.scss);
+@import url(../partials/_buyNow.scss);
+@import url(../partials/_boton.scss);
+@import url(../partials/_botoncito.scss);
+@import url(../sass/base/_resets.scss);
+@import url(../partials/anims/_swirl-in-fwd.scss);
+@import url(../partials/anims/_blink-1.scss);
+@import url(../partials/anims/_scale-up-center.scss);
+@import url(../partials/anims/_bounce-in-top.scss);
+@import url(../partials/anims/_tracking-in-expand.scss);
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  color: white; }
+  box-sizing: border-box; }
 
 /* animaciones */
 @-webkit-keyframes tracking-in-expand {
@@ -181,7 +199,7 @@
 
 /*animaciones*/
 .fondoGeneral {
-  background: linear-gradient(138deg, #4d33f7, #791191, #592049); }
+  background: linear-gradient(to right top, #f9e300, #f9e60b, #f9e814, #f9eb1b, #f9ed21, #fbe829, #fde330, #ffde37, #ffd142, #ffc54c, #ffba56, #fbb05f); }
   .fondoGeneral .imagenes {
     display: flex;
     flex-direction: row;
@@ -192,12 +210,12 @@
   justify-content: space-around; }
 
 .fondoNav {
-  background: linear-gradient(138deg, #4d33f7, #791191, #592049); }
+  background: linear-gradient(to right top, #f9e300, #f9e60b, #f9e814, #f9eb1b, #f9ed21, #fbe829, #fde330, #ffde37, #ffd142, #ffc54c, #ffba56, #fbb05f); }
   .fondoNav div {
     font-weight: bold; }
 
 .fondoFooter {
-  background: linear-gradient(138deg, #4d33f7, #791191, #592049); }
+  background: linear-gradient(to right top, #f9e300, #f9e60b, #f9e814, #f9eb1b, #f9ed21, #fbe829, #fde330, #ffde37, #ffd142, #ffc54c, #ffba56, #fbb05f); }
   .fondoFooter div {
     font-weight: bold; }
 
@@ -206,14 +224,34 @@
   justify-content: space-around; }
 
 .mediaDemo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px;
-  margin-left: 5rem; }
+  display: flex;
+  align-items: center; }
   .mediaDemo img {
-    width: 70%;
-    border-radius: 10px; }
+    margin-left: 10px;
+    width: 30%; }
+  .mediaDemo p {
+    font-size: 1rem; }
+
+.mediaDemo2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  align-items: center; }
+  .mediaDemo2 img {
+    width: 30%;
+    margin-right: 30px; }
+  .mediaDemo2 p {
+    font-size: 1rem; }
+
+.mediaDemo3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  align-items: center; }
+  .mediaDemo3 img {
+    width: 30%; }
+  .mediaDemo3 p {
+    font-size: 1rem; }
 
 .tribute {
   display: flex;
@@ -223,5 +261,26 @@
     max-width: 18.75rem;
     border-radius: 15px; }
 
+.historiaAkira {
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px; }
+
 .buyNow img {
   width: 30%; }
+
+.boton {
+  display: flex;
+  justify-content: center; }
+
+.botoncito {
+  display: block;
+  width: 100px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 15px 13px;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none; }
