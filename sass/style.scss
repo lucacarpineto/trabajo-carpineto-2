@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 /* animaciones */
@@ -30,6 +31,12 @@
         }
 }
 
+.subtitulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .fondoNav{
     background: linear-gradient(138deg, #4d33f7,#791191,#592049);
     div{
@@ -39,7 +46,6 @@
 
 .fondoFooter{
     background: linear-gradient(138deg, #4d33f7,#791191,#592049);
-    height: 100vh;
         div{
             font-weight:bold;
         }
